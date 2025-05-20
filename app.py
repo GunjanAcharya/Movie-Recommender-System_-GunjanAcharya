@@ -6,9 +6,10 @@ import gdown
 import os
 
 output_file = "similarity.pkl"
+file_id = '19NN7-6cCvcRi7gSCvtKbvPGTE7PcSdOn'
 
 if not os.path.exists(output_file):
-    url ="https://drive.google.com/file/d/19NN7-6cCvcRi7gSCvtKbvPGTE7PcSdOn/view?usp=drive_link"
+    url = f"https://drive.google.com/uc?id={file_id}"
     gdown.download(url, output_file, quiet=False)
 
 
