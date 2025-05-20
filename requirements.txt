@@ -16,7 +16,6 @@ brotlipy==0.7.0
 cached-property==1.5.2
 cachetools==5.5.2
 catalogue==2.0.10
-catboost==1.1.1
 category-encoders==2.6.3
 certifi==2025.4.26
 cffi==1.15.1
